@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grimorio</title>
+    <meta charset="utf-8" />
+	<link rel='stylesheet' id='apss-font-awesome-css'  href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-font-opensans-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.5.3' type='text/css' media='all' />
+
+
+<style>
+
+@font-face {
+   font-family: Armata;
+    src: url(Armata-Regular.otf);
+  }
+* {margin:0px;}
+body {
+     font-family: 'Armata';
+ background-color:  #bdbdbb;
+color:Gray;
+}
+#text {
+padding:5%;
+width:90%;
+color:Gray;
+border-radius: 5px;
+border:1px solid White;
+border-bottom:2px solid LightGray;
+background-color: white;
+}
+#se {
+padding:10px;
+border-radius: 5px;
+border:1px solid White;
+border-bottom:2px solid LightGray;
+background-color: white;
+}
+#erro {
+color:white;
+background-color: #f47555;
+padding:30px;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {opacity: 0;}
+    20%  {opacity: 0.2;}
+	  30%  {opacity: 0.3;}
+	    40%  {opacity: 0.4;}
+    50%  {opacity: 0.5;}
+	  60%  {opacity: 0.6;}
+	    70%  {opacity: 0.7;}
+		  80%  {opacity: 0.8;}
+		    90%  {opacity: 0.9;}
+    100% {opacity: 0.9;}
+}
+
+/* Standard syntax */
+@keyframes example {
+       0%   {opacity: 0;}
+    20%  {opacity: 0.2;}
+	  30%  {opacity: 0.3;}
+	    40%  {opacity: 0.4;}
+    50%  {opacity: 0.5;}
+	  60%  {opacity: 0.6;}
+	    70%  {opacity: 0.7;}
+		  80%  {opacity: 0.8;}
+		    90%  {opacity: 0.9;}
+    100% {opacity: 0.9;}
+}
+nav {
+background-color:  #486d93;
+color:white;
+
+height:65px;
+}
+#corpo {
+
+padding:20px;
+background-color:  White; 
+	height:100%;
+
+}
+
+#submit{
+ font-weight: bold;
+color:white;
+border:1px solid #444444;
+background-color:#444444;
+border-radius:5px;
+padding:20px;
+width:90px;
+}
+#submit:hover {
+background-color:#555;
+
+}
+</style>
+
+
+	</head>
+
+	<body>
+	<nav align="center"><br>
+	
+	<a href="Inicio.html" style="float:left;margin-top:-15px;"><img src="back.png" /></a>
+	<h1> Cadastrar Magia</h1>
+	
+	</nav>
+	
+	<div id="alert"></div>
+	<div id="corpo">
+	
+<input  type="text" id="se" placeholder="Nome Da magia" required="required" name="nome" style="width:95%;"><br><br>
+<select id="se" style="width:95%;">
+<option value="0">Level - 0</option>
+ <option value="1">Level - 1</option>
+  <option value="2">Level - 2</option>
+  <option value="3">Level - 3</option>
+  <option value="4">Level - 4</option>
+    <option value="5">Level - 5</option>
+	  <option value="6">Level - 6</option>
+	    <option value="7">Level - 7</option>
+</select><br><br>
+
+<input  type="text" id="se" placeholder="Tempo de Execução" style="width:40%; float:left;"name="tempo">
+<input  type="text" id="se" placeholder="Alcance" style="width:40%; float:right;"name="Alcance">
+<div style="clear:both;"></div><br><br>
+
+<input  type="text" id="se" placeholder="Alvo" style="width:40%; float:left;"name="Alvo">
+<input  type="text" id="se" placeholder="Duração" style="width:40%; float:right;"name="duracao">
+<div style="clear:both;"></div><br><br>
+<textarea rows="4" id="text" cols="500">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+
+Teste de Resistência: nenhum
+Ex: Esta magia imbui um frasco d'água com energia positiva, transformando-a em água benta.</textarea>
+
+<a href="#" onclick="error()">ete</a>
+<script>
+function error() {
+document.getElementById("alert").innerHTML=" <div id='erro'>Error</div>";
+
+
+}
+</script><br>
+<input value="Salvar" id="submit" type="submit"/>
+</div>
+	</body>
+
+</html>
