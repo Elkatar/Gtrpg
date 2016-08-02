@@ -73,10 +73,10 @@
 		<platform name="ios">
 		</platform>
 		<platform name="android">
-		<icon src="file://D:\Grimorio\Grimorio TRPG\www\res\icon\android\drawable-ldpi-icon1.png" qualifier="ldpi" />
-		<icon src="file://D:\Grimorio\Grimorio TRPG\www\res\icon\android\drawable-ldpi-icon.png" qualifier="mdpi" />
-		<icon src="file://D:\Grimorio\Grimorio TRPG\www\res\icon\android\drawable-hdpi-icon.png" qualifier="hdpi" />
-		<icon src="file://D:\Grimorio\Grimorio TRPG\www\res\icon\android\drawable-xhdpi-icon.png" qualifier="xhdpi" />
+		<icon src="www\res\icon\android\drawable-ldpi-icon1.png" qualifier="ldpi" />
+		<icon src="www\res\icon\android\drawable-ldpi-icon.png" qualifier="mdpi" />
+		<icon src="www\res\icon\android\drawable-hdpi-icon.png" qualifier="hdpi" />
+		<icon src="www\res\icon\android\drawable-xhdpi-icon.png" qualifier="xhdpi" />
 		</platform>
 		<platform name="winphone">
 		</platform>
