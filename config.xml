@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id=".br.com.poraostudios.gtrpg" version="1.0.0">
   <name>Grimorio TRPG</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
+  <description>Tenha todas as magias de Tormenta rpg em sua Mão.</description>
   <author href="http://poraostudios.com" email="support@poraostudios.com">Porao Studios Team</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -25,10 +25,11 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+  
   <icon src="icon.png"/>
 
   <platform name="android">
-   
+   <icon src="www/res/icon/android/drawable-ldpi-icon1.png" density="ldpi"/>
     <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="mdpi"/>
     <icon src="www/res/icon/android/drawable-mdpi-icon.png" density="hdpi"/>
     <icon src="www/res/icon/android/drawable-hdpi-icon.png" density="xhdpi"/>
